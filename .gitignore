@@ -1,2 +1,4 @@
 node_modules
 notes-webserver.pem
+.env
+.prod.env
