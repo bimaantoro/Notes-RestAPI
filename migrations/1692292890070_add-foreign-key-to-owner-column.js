@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
 
 exports.up = (pgm) => {
-  pgm.sql("INSERT INTO users VALUES('old-notes', 'old-notes', 'old-notes', 'old-notes')");
+  pgm.sql("INSERT INTO users VALUES ('old-notes', 'old-notes', 'old-notes', 'old-notes')");
 
   pgm.sql("UPDATE notes SET owner = 'old-notes' WHERE owner IS NULL");
 

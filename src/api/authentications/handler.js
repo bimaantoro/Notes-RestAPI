@@ -100,7 +100,7 @@ class AuthenticationsHandler {
 
       return {
         status: 'success',
-        message: 'Refresh Token berhasil dihapus',
+        message: 'Refresh token berhasil dihapus',
       };
     } catch (err) {
       if (err instanceof ClientError) {
